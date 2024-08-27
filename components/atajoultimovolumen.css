@@ -1,0 +1,105 @@
+.atajoultimovolumen-section {
+  width: 100%;
+  position: relative;
+}
+.atajoultimovolumen-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  transition: 0.5s;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.atajoultimovolumen-container:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+.atajoultimovolumen-heading {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: flex-start;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.atajoultimovolumen-header {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+.atajoultimovolumen-text {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  max-width: 300px;
+  text-align: left;
+  line-height: 28px;
+}
+.atajoultimovolumen-divider {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: none;
+}
+
+
+
+@media(max-width: 1600px) {
+  .atajoultimovolumen-text {
+    height: auto;
+  }
+}
+@media(max-width: 1200px) {
+  .atajoultimovolumen-text {
+    height: auto;
+  }
+}
+@media(max-width: 991px) {
+  .atajoultimovolumen-section {
+    border-right-width: 0px;
+  }
+  .atajoultimovolumen-container {
+    height: auto;
+  }
+  .atajoultimovolumen-header {
+    font-size: 24px;
+  }
+  .atajoultimovolumen-text {
+    height: auto;
+  }
+  .atajoultimovolumen-divider {
+    width: 80px;
+    height: 1px;
+    display: flex;
+    border-color: #ffffff;
+    border-width: 0px;
+    background-color: #ffffff;
+  }
+  .atajoultimovolumenroot-class-name {
+    width: auto;
+    align-self: flex-start;
+  }
+  .atajoultimovolumenroot-class-name2 {
+    width: auto;
+    align-self: flex-start;
+  }
+}
+@media(max-width: 767px) {
+  .atajoultimovolumen-container {
+    width: 100%;
+    height: auto;
+  }
+  .atajoultimovolumen-header {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .atajoultimovolumen-text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+@media(max-width: 479px) {
+  .atajoultimovolumen-container {
+    height: auto;
+    padding-right: 0px;
+  }
+}

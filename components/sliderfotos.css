@@ -1,0 +1,126 @@
+.sliderfotos-header78 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.sliderfotos-contenedorprincipal {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sliderfotos-contenedorfilas1 {
+  width: 100%;
+}
+.sliderfotos-image11 {
+  height: 400px;
+  padding-left: var(--dl-space-space-threeunits);
+}
+.sliderfotos-image21 {
+  height: 400px;
+}
+.sliderfotos-image31 {
+  height: 400px;
+}
+.sliderfotos-image41 {
+  height: 400px;
+}
+.sliderfotos-image12 {
+  height: 400px;
+}
+.sliderfotos-image22 {
+  height: 400px;
+}
+.sliderfotos-image32 {
+  height: 400px;
+}
+.sliderfotos-image42 {
+  height: 400px;
+}
+.sliderfotos-contenedorfilas2 {
+  width: 100%;
+}
+.sliderfotos-image13 {
+  width: auto;
+  height: 400px;
+  padding-left: var(--dl-space-space-threeunits);
+}
+.sliderfotos-image23 {
+  width: auto;
+  height: 400px;
+}
+.sliderfotos-image33 {
+  width: auto;
+  height: 400px;
+}
+.sliderfotos-image43 {
+  width: auto;
+  height: 400px;
+}
+.sliderfotos-image14 {
+  width: auto;
+  height: 400px;
+}
+.sliderfotos-image24 {
+  width: auto;
+  height: 400px;
+}
+.sliderfotos-image34 {
+  width: auto;
+  height: 400px;
+}
+.sliderfotos-image44 {
+  width: auto;
+  height: 400px;
+}
+.sliderfotos-contenedorfilas3 {
+  width: 100%;
+}
+.sliderfotos-image15 {
+  width: auto;
+  height: auto;
+  padding-left: var(--dl-space-space-threeunits);
+}
+.sliderfotos-image25 {
+  width: auto;
+  height: auto;
+}
+.sliderfotos-image35 {
+  width: auto;
+  height: auto;
+}
+.sliderfotos-image45 {
+  width: auto;
+  height: auto;
+}
+.sliderfotos-image16 {
+  width: auto;
+  height: auto;
+}
+.sliderfotos-image26 {
+  width: auto;
+  height: auto;
+}
+.sliderfotos-image36 {
+  width: auto;
+  height: auto;
+}
+.sliderfotos-image46 {
+  width: auto;
+  height: auto;
+}
+.sliderfotos-container2 {
+  display: contents;
+}
+@media(max-width: 767px) {
+  .sliderfotos-contenedorprincipal {
+    width: 100%;
+  }
+}
