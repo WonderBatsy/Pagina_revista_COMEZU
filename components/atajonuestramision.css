@@ -1,0 +1,120 @@
+.atajonuestramision-section {
+  width: 100%;
+  position: relative;
+}
+.atajonuestramision-container {
+  width: auto;
+  display: flex;
+  transition: 0.5s;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.atajonuestramision-container:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+.atajonuestramision-heading {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: flex-start;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.atajonuestramision-header {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+.atajonuestramision-text {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  max-width: 300px;
+  text-align: left;
+  line-height: 28px;
+}
+.atajonuestramision-divider {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: none;
+}
+
+
+
+@media(max-width: 1600px) {
+  .atajonuestramision-text {
+    height: auto;
+  }
+}
+@media(max-width: 1200px) {
+  .atajonuestramision-text {
+    height: auto;
+  }
+  .atajonuestramisionroot-class-name {
+    align-self: stretch;
+  }
+}
+@media(max-width: 991px) {
+  .atajonuestramision-section {
+    border-right-width: 0px;
+  }
+  .atajonuestramision-container {
+    height: auto;
+  }
+  .atajonuestramision-header {
+    font-size: 24px;
+  }
+  .atajonuestramision-text {
+    height: auto;
+  }
+  .atajonuestramision-divider {
+    width: 80px;
+    height: 1px;
+    display: flex;
+    border-color: #ffffff;
+    border-width: 0px;
+    background-color: #ffffff;
+  }
+  .atajonuestramisionroot-class-name1 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .atajonuestramisionroot-class-name2 {
+    width: auto;
+    align-self: flex-start;
+  }
+}
+@media(max-width: 767px) {
+  .atajonuestramision-container {
+    width: 100%;
+    height: auto;
+  }
+  .atajonuestramision-header {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .atajonuestramision-text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .atajonuestramisionroot-class-name {
+    height: var(--dl-size-size-xlarge);
+    align-self: stretch;
+  }
+  .atajonuestramisionroot-class-name2 {
+    width: auto;
+  }
+}
+@media(max-width: 479px) {
+  .atajonuestramision-container {
+    height: auto;
+    padding-right: 0px;
+  }
+  .atajonuestramisionroot-class-name {
+    height: auto;
+  }
+  .atajonuestramisionroot-class-name2 {
+    height: auto;
+  }
+}
